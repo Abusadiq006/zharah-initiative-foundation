@@ -1,9 +1,13 @@
-function App(){
+import React from "react";
+import MainLayout from "./layout/MainLayout";
+import Home from "./pages/Home";
+
+function App() {
   return (
-    <div>
-      NGO Website
-    </div>
-  )
+    <MainLayout>
+      <Home />
+    </MainLayout>
+  );
 }
 
-export default App
+export default App;
